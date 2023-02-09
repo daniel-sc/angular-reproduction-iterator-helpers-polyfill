@@ -47,7 +47,9 @@
  */
 import 'zone.js';  // Included with Angular CLI.
 
-
+//import 'iterator-helpers-polyfill';
+import {installIntoGlobal} from 'iterator-helpers-polyfill';
+installIntoGlobal();
 /***************************************************************************************************
  * APPLICATION IMPORTS
  */
