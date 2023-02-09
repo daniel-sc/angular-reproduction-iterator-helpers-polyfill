@@ -25,7 +25,7 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
-      dir: require('path').join(__dirname, './coverage/angular-15-new'),
+      dir: require('path').join(__dirname, './coverage/angular-reproduction-iterator-helpers-polyfill'),
       subdir: '.',
       reporters: [
         { type: 'html' },

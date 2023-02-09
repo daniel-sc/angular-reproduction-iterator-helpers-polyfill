@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "angular-15-new": {
+    "angular-reproduction-iterator-helpers-polyfill": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/angular-15-new",
+            "outputPath": "dist/angular-reproduction-iterator-helpers-polyfill",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -64,10 +64,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "angular-15-new:build:production"
+              "browserTarget": "angular-reproduction-iterator-helpers-polyfill:build:production"
             },
             "development": {
-              "browserTarget": "angular-15-new:build:development"
+              "browserTarget": "angular-reproduction-iterator-helpers-polyfill:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -75,7 +75,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "angular-15-new:build"
+            "browserTarget": "angular-reproduction-iterator-helpers-polyfill:build"
           }
         },
         "test": {
